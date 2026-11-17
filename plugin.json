@@ -21,6 +21,7 @@
     "alerts",
     "incidents",
     "kubernetes",
+    "kafka",
     "finops",
     "mcp"
   ],
@@ -29,7 +30,8 @@
       "skills": [
         "./skills/nrsetup/",
         "./skills/nrql/",
-        "./skills/nrinvestigate/"
+        "./skills/nrinvestigate/",
+        "./skills/kafka/"
       ]
     }
   }

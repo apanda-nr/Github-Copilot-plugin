@@ -13,6 +13,7 @@ The plugin connects Copilot to the hosted [New Relic MCP server](https://docs.ne
   - `nrsetup`: sign-in, US/EU/JP regions, access troubleshooting
   - `nrql`: write and run NRQL safely and efficiently
   - `nrinvestigate`: step-by-step incident and regression investigation
+  - `kafka`: Kafka questions and root-cause investigation (consumer lag, partitions, brokers, throughput) for nri-kafka, OpenTelemetry, AWS MSK, and Confluent Cloud data
 - **Custom agents** (select one from the agent picker in VS Code, or run `/agent` in the Copilot CLI):
   - `New Relic APM Agent`: errors, latency, throughput, transactions, and deployment impact
   - `New Relic Incident Response Agent`: correlates alerts, traces, errors, and deployments with your code to find root causes and suggest fixes
@@ -101,6 +102,7 @@ skills/
   nrsetup/
   nrql/
   nrinvestigate/
+  kafka/
 ```
 
 ## Support
