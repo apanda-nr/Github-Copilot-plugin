@@ -66,6 +66,7 @@ Or run `/nrsetup` in Copilot (or just ask it to "set up New Relic") and the skil
 - "Did today's deployment of payments-service cause the latency spike?"
 - "Run NRQL: `SELECT count(*) FROM Transaction FACET appName SINCE 1 hour ago`"
 - "Find recent error logs for the cart service and summarize the top causes"
+- "Why is consumer lag growing for the order-events consumer group on the prod-kafka cluster?"
 
 ## Security
 
